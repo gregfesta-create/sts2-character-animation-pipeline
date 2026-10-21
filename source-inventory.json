@@ -1,0 +1,1680 @@
+{
+  "formatVersion": 1,
+  "files": [
+    {
+      "path": ".coverage-thresholds.json",
+      "bytes": 707,
+      "sha256": "ccdd20dfdb0ecb0cd3d4b57a515a2f7400acea9b77b3dd3a5f3d3fb25893c4c4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "24e004a8704bf6b286588b1050ac4f780765d7c4cc6100eb556942188dddbb98"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2412,
+      "sha256": "0f1f2102f5d796089f94c6b776f35c7fe8db54592a4348a16133909c4a946488"
+    },
+    {
+      "path": "character-pipeline/.gitignore",
+      "bytes": 326,
+      "sha256": "ead6d2e3c0003c78f64a4665592dac0cea8b119d33f4eeaaa5905c40ea004fc2"
+    },
+    {
+      "path": "character-pipeline/AGENT-OPERATIONS.md",
+      "bytes": 72321,
+      "sha256": "30f94bed0f95778e146898dbcd35fbbfa03f11ea735688a6ac7f40cb66b0bf8c"
+    },
+    {
+      "path": "character-pipeline/LICENSE",
+      "bytes": 1088,
+      "sha256": "24e004a8704bf6b286588b1050ac4f780765d7c4cc6100eb556942188dddbb98"
+    },
+    {
+      "path": "character-pipeline/README.md",
+      "bytes": 17568,
+      "sha256": "17735a0b05944c53ab397bcfc3aaa092b64f670e00de9034edcf08f9cee97d39"
+    },
+    {
+      "path": "character-pipeline/RELEASE.md",
+      "bytes": 10307,
+      "sha256": "0f55d12265a723f1c5ca5f22240e1606fa3faf3423418346e17cc7b2aaa60df6"
+    },
+    {
+      "path": "character-pipeline/adapters/godot.js",
+      "bytes": 7263,
+      "sha256": "4cab8051de959082b5474b225bbbfaeea44d8ad260b7805352fe47c2ef7be7c7"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/AssemblyStateBinding.cs",
+      "bytes": 20041,
+      "sha256": "84ba8de4fbb5963fbab36159a87c7ffe40c0e12088b7c93fb415fdc2c989b47b"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/AttackPresentationBinding.cs",
+      "bytes": 16204,
+      "sha256": "57011f25e50e83ac8312550ce403f9add64a56bb78f5fc4397332a7a50f2d52b"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/CharacterPipeline.csproj",
+      "bytes": 1590,
+      "sha256": "94f5f3002484b026f6ddba2e10e454be385f26fb54a37fb2daef73cbb5cc838b"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/CombatPresentationCaller.cs",
+      "bytes": 13825,
+      "sha256": "ae9d928bf08b49ab6133389b194233008070cca2c6cffa626ee8c5b1ac160d0f"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/CreatureAssemblyBinding.cs",
+      "bytes": 8617,
+      "sha256": "5340069aa2d1167639d5d245deddc44d83524994a76039926ec5da56b06b8853"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/CreatureAssemblyHooks.cs",
+      "bytes": 7570,
+      "sha256": "3ed75c5d561e670772a5ba59230ff6a81e5911292609f9bc6c2b59ee0a580740"
+    },
+    {
+      "path": "character-pipeline/adapters/sts2/PipelineVisuals.cs",
+      "bytes": 4774,
+      "sha256": "d895998f6ecf3e49d72840a2675c9925c2c786972c15e8173028163e7ce5e2b4"
+    },
+    {
+      "path": "character-pipeline/backends/godot.js",
+      "bytes": 40106,
+      "sha256": "640d2ad6707c8f3747b331eb3103f2b0f479fcdde83a50d5b3372273951809ca"
+    },
+    {
+      "path": "character-pipeline/cli.js",
+      "bytes": 26744,
+      "sha256": "0920c2783a68e289b7011ca7fe9b107bc820dbefc9ab952c484f64443348e929"
+    },
+    {
+      "path": "character-pipeline/config/tools.example.json",
+      "bytes": 1201,
+      "sha256": "7da0d6b5a3ab52f4138515846eadd25ff93e547645186f103c5747fd6b421f0e"
+    },
+    {
+      "path": "character-pipeline/godot/README.md",
+      "bytes": 5503,
+      "sha256": "a6fa270b6538cff4d2b047b3a243ef7f98fc405fb75df22d90754df5372d116b"
+    },
+    {
+      "path": "character-pipeline/godot/action_controller.gd",
+      "bytes": 17645,
+      "sha256": "771780b10e6230085a7eda330eac975270bb5960d0eb245066808bac8e7ca7d2"
+    },
+    {
+      "path": "character-pipeline/godot/animation_controller.gd",
+      "bytes": 13682,
+      "sha256": "30f320ff3084d839a6927e5219af1202c2a96d3ddb10bcb4a8fa419018584b73"
+    },
+    {
+      "path": "character-pipeline/godot/assembly_controller.gd",
+      "bytes": 28410,
+      "sha256": "fc9d7df8c9cc6d75659c823978e62d59d0722ab5aa51f777e7626161501bbb6c"
+    },
+    {
+      "path": "character-pipeline/godot/assembly_planner.gd",
+      "bytes": 12433,
+      "sha256": "329fab3b97ad1cc6bbf5caeb873664d2e0e4533beecc64cf1fcff358704c2371"
+    },
+    {
+      "path": "character-pipeline/godot/assembly_transport.gd",
+      "bytes": 11458,
+      "sha256": "325a0c048daf31a1c71d78066d2d9730c53e0f847b0e71f589ea893c9a68900b"
+    },
+    {
+      "path": "character-pipeline/godot/audio_controller.gd",
+      "bytes": 3401,
+      "sha256": "3b7966138fb164a99b6b4f5164d163532b66e77b21c767ed3785ee028412963c"
+    },
+    {
+      "path": "character-pipeline/godot/compile.gd",
+      "bytes": 31417,
+      "sha256": "2449f2d79a8fc464d3a01506d3296b1619ad46b89ab6d4842a1dc65b15d9745e"
+    },
+    {
+      "path": "character-pipeline/godot/component_controller.gd",
+      "bytes": 11285,
+      "sha256": "e6be1967d83ff4546639c91aed86870fe5dd7e15b25d660974395d4d10e041d8"
+    },
+    {
+      "path": "character-pipeline/godot/effect_controller.gd",
+      "bytes": 6666,
+      "sha256": "d7eaa2e6e6b701d10e1654bba68a7b918a7fca281d0d8b637ef14e1a20c0954e"
+    },
+    {
+      "path": "character-pipeline/godot/effect_rule_controller.gd",
+      "bytes": 9230,
+      "sha256": "939708bc86d2081502c8ccc3d11ed1e458fced1c1088f5685d85c4a86bb701f3"
+    },
+    {
+      "path": "character-pipeline/godot/effect_scene_controller.gd",
+      "bytes": 8813,
+      "sha256": "27f9bf11cc2ac52d53c68e44f5815a8270a278d7d79cd17ae9f48be1cf2ad5a0"
+    },
+    {
+      "path": "character-pipeline/godot/export_pack.gd",
+      "bytes": 1544,
+      "sha256": "edb1e45205ff38fb9e776f24f6f87b7741efb36beb70d53f7525bda89257d4d7"
+    },
+    {
+      "path": "character-pipeline/godot/impact_controller.gd",
+      "bytes": 7597,
+      "sha256": "7429e1147b70b2fdfc8338b725ce5edee904e5b0f0079e89b82434456088572f"
+    },
+    {
+      "path": "character-pipeline/godot/inspect_audio_resources.gd",
+      "bytes": 7095,
+      "sha256": "16f3b2ab6a6979170a70f36791f57a337e76ee950f5f9916ba0fab84ab7918f1"
+    },
+    {
+      "path": "character-pipeline/godot/limited_bone.gd",
+      "bytes": 281,
+      "sha256": "57c7856108145bb9aefaf50a4030891ba65df3bbb99895c22ba0102d9f75e53f"
+    },
+    {
+      "path": "character-pipeline/godot/pose_controller.gd",
+      "bytes": 4021,
+      "sha256": "6a7bd43e0806f86c1a310454eb5552a292e8ef5137ca26e49b264eecb724f69d"
+    },
+    {
+      "path": "character-pipeline/godot/preview_assembly.gd",
+      "bytes": 8584,
+      "sha256": "a3306175626e09a4cb0c0af028de9fb6a835cfa54bfe725d2973f2a1d782a146"
+    },
+    {
+      "path": "character-pipeline/godot/state_reconciler.gd",
+      "bytes": 8733,
+      "sha256": "acabe6ffcaac74833caf8d4ad163c99a1231fea3e24fecf08dd4a2ef8313109d"
+    },
+    {
+      "path": "character-pipeline/godot/telemetry.gd",
+      "bytes": 11542,
+      "sha256": "bf0438ab02572c53340f4d6cd12502d723c2d1113d36db77a789b88ba731f5ae"
+    },
+    {
+      "path": "character-pipeline/godot/texture_storage.gd",
+      "bytes": 543,
+      "sha256": "a41ce9bd638774a7f46d29028d2cd88acb5b554a1918edee78cd7d5c27dbf5ab"
+    },
+    {
+      "path": "character-pipeline/godot/visual_state_controller.gd",
+      "bytes": 1929,
+      "sha256": "852b10a6d84dc91b855cc8d8e8c766fd7aeb5dc059976b05dd953cc800b372f6"
+    },
+    {
+      "path": "character-pipeline/lib/animation-inventory-build.js",
+      "bytes": 8964,
+      "sha256": "b810339a1b51fec48bb77f52e1b42f69f99314f79c0629af713babd90dc2c32b"
+    },
+    {
+      "path": "character-pipeline/lib/animation-inventory.js",
+      "bytes": 8630,
+      "sha256": "3e05d75b34ad488c0aa6fb36ea4c490f8c3caa50f4c97cda17c4baca2beb0b6b"
+    },
+    {
+      "path": "character-pipeline/lib/animation.js",
+      "bytes": 3756,
+      "sha256": "641ac929bf1a8d6560a6ed84cd7e83ff48028a4bf7af8567baa5bc29384534c4"
+    },
+    {
+      "path": "character-pipeline/lib/artwork-review.js",
+      "bytes": 12632,
+      "sha256": "2cea9b3410fa129969374b540d5cc18eedf73ca50a7a16d167d7475180efa90f"
+    },
+    {
+      "path": "character-pipeline/lib/artwork.js",
+      "bytes": 10720,
+      "sha256": "54cbeca4a4a311d0e84ee912d23a799db39e32f8c2f2edfa1eb5c1b289c69697"
+    },
+    {
+      "path": "character-pipeline/lib/assembly-preview-planning.js",
+      "bytes": 10012,
+      "sha256": "c1cf42936ab6c2972d1b9ef5b5147a73cc663003e3494d9811f493240d363087"
+    },
+    {
+      "path": "character-pipeline/lib/assembly-preview.js",
+      "bytes": 14122,
+      "sha256": "e553287342d2402475db803bc44e38c78b0e891fa6e3ca797e4a443c664f4e62"
+    },
+    {
+      "path": "character-pipeline/lib/assets.js",
+      "bytes": 5111,
+      "sha256": "a50e754b0ef7db51e5c416cef7b69ad039f5770c50c3cbf56f270bf766631a58"
+    },
+    {
+      "path": "character-pipeline/lib/audio-eligibility.js",
+      "bytes": 3346,
+      "sha256": "c49544decae3f66a3921b52fb156a4e12e1f4be559ab4df0c797d4c5a2478fa2"
+    },
+    {
+      "path": "character-pipeline/lib/audio-format.js",
+      "bytes": 5750,
+      "sha256": "c3098a2288835abcad3eb13dad9845ba44a6e2db7ade1f78362f05f81d7dcd6b"
+    },
+    {
+      "path": "character-pipeline/lib/audio.js",
+      "bytes": 5128,
+      "sha256": "1b7c635809445b4e85210946418d80b5aa3e65e3f4eb205f307ddcf024adddd6"
+    },
+    {
+      "path": "character-pipeline/lib/authored-geometry.js",
+      "bytes": 8760,
+      "sha256": "631aaa1792e752ee40f1542ba41d171cc897378f5bc42b1f96e89319478f77c2"
+    },
+    {
+      "path": "character-pipeline/lib/compile-repair.js",
+      "bytes": 12268,
+      "sha256": "e552479a4ad0fabc49e23a8448e0ab260657f5ebb84737148b0a40f46770a496"
+    },
+    {
+      "path": "character-pipeline/lib/component-authoring.js",
+      "bytes": 5756,
+      "sha256": "73c2e20c41aa1d6bb093154ad409d3b0f12cd58be7078b21b1b96f5b254b7048"
+    },
+    {
+      "path": "character-pipeline/lib/component-build.js",
+      "bytes": 14340,
+      "sha256": "7f0561491021fcf8040f16eb67e13ab0514b392c640ea59a7a5578345041b504"
+    },
+    {
+      "path": "character-pipeline/lib/components.js",
+      "bytes": 13377,
+      "sha256": "8ee9bd8183ddf67805305d055b164f219530bef58c14f7f76f3de4f6528088d4"
+    },
+    {
+      "path": "character-pipeline/lib/concepts.js",
+      "bytes": 9421,
+      "sha256": "c507208e502b0517ca953826e434fa3747895112200aea2c0ebc77f0bdbabeb3"
+    },
+    {
+      "path": "character-pipeline/lib/delivery.js",
+      "bytes": 18444,
+      "sha256": "4ba13b7627a838faaf5b781e95574fafd045fcb49b42e2260925fd402a662cbb"
+    },
+    {
+      "path": "character-pipeline/lib/discovery.js",
+      "bytes": 11234,
+      "sha256": "899fe3742ba124b42052de0a20711bb42704ef6da1382e9de793ca19f83cd308"
+    },
+    {
+      "path": "character-pipeline/lib/effect-animation.js",
+      "bytes": 1996,
+      "sha256": "73ae6be77659b6dc062dddce828cd0a0a32c42baa7c4953507e744b3b9c44837"
+    },
+    {
+      "path": "character-pipeline/lib/effect-build.js",
+      "bytes": 14639,
+      "sha256": "78ee37f178c960ee96ad20c7d42a2bddc04c80a501b5842fc1fba107deb86af2"
+    },
+    {
+      "path": "character-pipeline/lib/effect-plan.js",
+      "bytes": 5961,
+      "sha256": "bf0f63e9a093d8e52845964dbe6fdc3b7344fb6b15eda104d83116b6a577e509"
+    },
+    {
+      "path": "character-pipeline/lib/effect-request.js",
+      "bytes": 14344,
+      "sha256": "8cbd1728a430c2f32a7619f5dcc9a3130bbd871cfeca20e1a6185b0e2e389e51"
+    },
+    {
+      "path": "character-pipeline/lib/effects.js",
+      "bytes": 9597,
+      "sha256": "8fe363bff59a9719529efed32995804e255d05c47970fa16693cafee28eca89f"
+    },
+    {
+      "path": "character-pipeline/lib/engine.js",
+      "bytes": 71883,
+      "sha256": "d615b1ade605c8886fe82b8260ec0e57a5c560e4ca3a455193eab597027a69d2"
+    },
+    {
+      "path": "character-pipeline/lib/export.js",
+      "bytes": 10984,
+      "sha256": "66190a627a823566ec2ed1ea355ccde0d84cd4e29fe524b2028eb3e5a782bd87"
+    },
+    {
+      "path": "character-pipeline/lib/graphics-prerequisites.js",
+      "bytes": 5004,
+      "sha256": "1ad0041ec1a64d0e990b10180b3d4307cf6a3ec7148cac68612116e1a9f71e8f"
+    },
+    {
+      "path": "character-pipeline/lib/image-tools.js",
+      "bytes": 3502,
+      "sha256": "28c64611a8578ecca50f63b0f85642f2bb43330b43bae8ef8d1e1d3699bf6c44"
+    },
+    {
+      "path": "character-pipeline/lib/jobs.js",
+      "bytes": 16012,
+      "sha256": "8c33fb7606437037f7c7801f0394dfb0300b7b414c0769f55b041acc60460179"
+    },
+    {
+      "path": "character-pipeline/lib/mask-inspection.js",
+      "bytes": 10768,
+      "sha256": "34e2b535d6ad1a875fa0c6de0a12b99594ea6d080dc9e72c6bae7f487a8f09bc"
+    },
+    {
+      "path": "character-pipeline/lib/mechanics.js",
+      "bytes": 7858,
+      "sha256": "f083ff1bcabed73af3c89417f557649b2fcd85a2a0e12afbf9d7e5802b4d8bb6"
+    },
+    {
+      "path": "character-pipeline/lib/mod-package-build.js",
+      "bytes": 17464,
+      "sha256": "0c5f0fbecc63851c4caf747b00e5117eb63149ed4d32193bd3790f05ddcc93e1"
+    },
+    {
+      "path": "character-pipeline/lib/mod-package-request.js",
+      "bytes": 20833,
+      "sha256": "35f255a672f9eb596704527ef9167965c88b045d72db06672f7859f06964ca84"
+    },
+    {
+      "path": "character-pipeline/lib/mod-package.js",
+      "bytes": 13895,
+      "sha256": "2c353b1fd333eacd1876933d5bc68595a563a8526367a89a41a20eb16ba7a9ab"
+    },
+    {
+      "path": "character-pipeline/lib/motion-preview.js",
+      "bytes": 6728,
+      "sha256": "96965176d1cda6dc8af1e166bcf94c8ea0712e1facb629f6c2eeeed0e259a81d"
+    },
+    {
+      "path": "character-pipeline/lib/motion-registration.js",
+      "bytes": 8014,
+      "sha256": "cbee71556d88840cd19fbbc188d1ddc9dc40bb56f78eacf55541a31192871906"
+    },
+    {
+      "path": "character-pipeline/lib/motion-sampling.js",
+      "bytes": 7503,
+      "sha256": "c3d4f4815fccf8006145adc165e6848788d29fddb18659c0fe9e1f53e893eb2e"
+    },
+    {
+      "path": "character-pipeline/lib/native-audio-resources.js",
+      "bytes": 8294,
+      "sha256": "2d75578a9b0f5cf090f0c7feedcdb9e12adccc82c356b97b2dadb02b26c8907b"
+    },
+    {
+      "path": "character-pipeline/lib/native-launch.js",
+      "bytes": 2811,
+      "sha256": "b4b859c736c4ff81ef47fcae876e67e274261873116d5ae7e9f4f502d450eb9f"
+    },
+    {
+      "path": "character-pipeline/lib/native-skinning.js",
+      "bytes": 16828,
+      "sha256": "8e009aacb6c25e70915892d83f9ad8be4534e68dc2dcd0ba42d890e45e9e5239"
+    },
+    {
+      "path": "character-pipeline/lib/overlap-planning.js",
+      "bytes": 6258,
+      "sha256": "62766f5d634c0ee31396d78bf6e9b292efae5c8d3555e86a5e909695d99decd3"
+    },
+    {
+      "path": "character-pipeline/lib/package-size.js",
+      "bytes": 13308,
+      "sha256": "023f5aea69be5e0981e14a05a5b6ee7fc2d4283c5a141136e5193b2b503bcb55"
+    },
+    {
+      "path": "character-pipeline/lib/process.js",
+      "bytes": 5760,
+      "sha256": "9044953bbf4c9520658951935a067e07a7a4624ce90c2c69cead8cb3d45688c0"
+    },
+    {
+      "path": "character-pipeline/lib/render-layout.js",
+      "bytes": 1881,
+      "sha256": "035bb0d6aa1fa63af97cef0e8f658b95d6e825e5548bd65d6b8161f18e65597d"
+    },
+    {
+      "path": "character-pipeline/lib/repair-operators.js",
+      "bytes": 11115,
+      "sha256": "6f92c9229b974b4b7a0341aa0733e00b991b471b4ec36ae34d36d50c9e0764c5"
+    },
+    {
+      "path": "character-pipeline/lib/repair.js",
+      "bytes": 8471,
+      "sha256": "5021f423598895321fff0f9f7e83dcf932a047a7071b0b9c8a084e918a8be69b"
+    },
+    {
+      "path": "character-pipeline/lib/rig.js",
+      "bytes": 11714,
+      "sha256": "58ea8763915aa875d49bb37f34f5b0fa2ec384f4f4357becb5b6317d4533c093"
+    },
+    {
+      "path": "character-pipeline/lib/runtime-manifest.js",
+      "bytes": 17798,
+      "sha256": "89ea856851456e86ee692429ebc54e5f8646ca18a0cae878f0419f44f8d01367"
+    },
+    {
+      "path": "character-pipeline/lib/scheduler.js",
+      "bytes": 9583,
+      "sha256": "15095202ecf43a7856bed5c19090d0d98ae1907b21c2439819150d95bf1c4b34"
+    },
+    {
+      "path": "character-pipeline/lib/spec.js",
+      "bytes": 16035,
+      "sha256": "945ba44e3482b7a4413a85587ddcbba41fa9248fa9028ad8f518bbbf110bbc8c"
+    },
+    {
+      "path": "character-pipeline/lib/state.js",
+      "bytes": 8529,
+      "sha256": "c08941b0af3025b7ac275f3d545102a6a0e12ab8f4cd4e166142320c5ad27f6a"
+    },
+    {
+      "path": "character-pipeline/lib/sts2-integration.js",
+      "bytes": 8731,
+      "sha256": "a3cbdddff91a1c4292ea627f6ff202af3b56fbd812baac87ab466e6c1a8391e1"
+    },
+    {
+      "path": "character-pipeline/lib/surface-coverage.js",
+      "bytes": 1044,
+      "sha256": "a1575b9d905b5c1b97592f747c356c7ae00e170fe654fae890b469967fe9f478"
+    },
+    {
+      "path": "character-pipeline/lib/validation.js",
+      "bytes": 5657,
+      "sha256": "34c1f38776c50d5ee5644a7de89489f7564cb5012bbfe9b40ae32eddec81e368"
+    },
+    {
+      "path": "character-pipeline/lib/visual-inspection.js",
+      "bytes": 10015,
+      "sha256": "954379a7e9959cae7ae98e197e5711feef124ba9c2700d68e98ff009e74563b9"
+    },
+    {
+      "path": "character-pipeline/lib/windows-tool-lock.ps1",
+      "bytes": 5889,
+      "sha256": "a63b287ea371c231bf4d19a9555e5f7a399fed37c8798f268c890d72d97108b7"
+    },
+    {
+      "path": "character-pipeline/library/animations/activate.json",
+      "bytes": 307,
+      "sha256": "d5e759846d755a10a3d6c9f66d7ef9aa927e60cad6c9d92bd97592c9b7ada25a"
+    },
+    {
+      "path": "character-pipeline/library/animations/attack.json",
+      "bytes": 379,
+      "sha256": "627d4cf46018cb073d8b013d01a1a9606253ebdf5e80aedfbbb901c1c83d6069"
+    },
+    {
+      "path": "character-pipeline/library/animations/cast.json",
+      "bytes": 381,
+      "sha256": "a2613afcf4a713f19fe63f9cfac8e12c6262efb488cec34b70104517d2a3d45b"
+    },
+    {
+      "path": "character-pipeline/library/animations/construct.json",
+      "bytes": 387,
+      "sha256": "8815add77aac82011bbffceb88ad3dc13ed6349a8f7ec37c12528985957e62e3"
+    },
+    {
+      "path": "character-pipeline/library/animations/death.json",
+      "bytes": 244,
+      "sha256": "a40960f60adf9c0700d08041727d4122441ed255e40bc87868995f25c5c1a9a5"
+    },
+    {
+      "path": "character-pipeline/library/animations/defend.json",
+      "bytes": 241,
+      "sha256": "59933488cd07e6dcff5aa1e827769c68ee424cf31f787dc637766bdb75c16929"
+    },
+    {
+      "path": "character-pipeline/library/animations/hit.json",
+      "bytes": 246,
+      "sha256": "51bb1b1dd7042db4ad37ae3c81d5631fe5ee0bacdcfc46056b80868d533b7847"
+    },
+    {
+      "path": "character-pipeline/library/animations/idle.json",
+      "bytes": 239,
+      "sha256": "d27bd78056948532d01323baf4db1ef349d5141b88f0d54829b5aed945c4c76a"
+    },
+    {
+      "path": "character-pipeline/library/animations/move.json",
+      "bytes": 311,
+      "sha256": "364af1eabb3ada2686bf93be0b8dc36929a83c319dd89d8456e2af00b7a0123e"
+    },
+    {
+      "path": "character-pipeline/library/animations/repair.json",
+      "bytes": 304,
+      "sha256": "2a52fe814293e4e9a6eb638453867661edb18fd7e5353d99944f28b0dcd1b5a8"
+    },
+    {
+      "path": "character-pipeline/library/animations/retreat.json",
+      "bytes": 318,
+      "sha256": "dd64e868c28ea136f8a55f8f49d7379eeabd1e0c69bbbc903c3b8a1477cf3485"
+    },
+    {
+      "path": "character-pipeline/library/animations/transform.json",
+      "bytes": 308,
+      "sha256": "ed0f23ebfe35301aaf97033e396d964abef5bd4063392d2cd9bf2d40c58c107d"
+    },
+    {
+      "path": "character-pipeline/library/rigs/humanoid.json",
+      "bytes": 5890,
+      "sha256": "d50122bbae186095487e219dca9f73aeed357abb71180204a9fcd1f4e652c183"
+    },
+    {
+      "path": "character-pipeline/library/rigs/mechanical.json",
+      "bytes": 5892,
+      "sha256": "621474dc6c3da37ca1fb524baad716c9dc549aee300cf77a565556bfccbd84ab"
+    },
+    {
+      "path": "character-pipeline/library/rigs/quadruped_or_multilimb.json",
+      "bytes": 6531,
+      "sha256": "20c671446d12a7b3b00e8b171d4114959d4ec2f4201143545a0b3a5c8eafdf6a"
+    },
+    {
+      "path": "character-pipeline/providers/comfyui.js",
+      "bytes": 27638,
+      "sha256": "580c868d8f0fac05eba97fe6cc3701720996fa3cc0e32f42718a0eb95f4735b2"
+    },
+    {
+      "path": "character-pipeline/providers/existing.js",
+      "bytes": 750,
+      "sha256": "1d03e4c5156acf6e2aab6a47087e5261bf579dcc4a09193e05413b6388114709"
+    },
+    {
+      "path": "character-pipeline/providers/generated.js",
+      "bytes": 11181,
+      "sha256": "7005e4c5e41ed2232f288514e71626096a56b2ffab7804e6222cfb37fb7685c7"
+    },
+    {
+      "path": "character-pipeline/providers/layered.js",
+      "bytes": 1487,
+      "sha256": "ce942d21baac2c43e881e84d8c74524c1578b2e73d564c2350e34537968934c3"
+    },
+    {
+      "path": "character-pipeline/release/ACCEPTANCE.md",
+      "bytes": 4859,
+      "sha256": "64d4e304aba736b261efda4887f408c3634734b1b938b32344d87fbdd0fe390b"
+    },
+    {
+      "path": "character-pipeline/release/README.md",
+      "bytes": 2412,
+      "sha256": "0f1f2102f5d796089f94c6b776f35c7fe8db54592a4348a16133909c4a946488"
+    },
+    {
+      "path": "character-pipeline/schema/animation-inventory.schema.json",
+      "bytes": 1542,
+      "sha256": "029ff89c6d1e75e09a863451d01b5297d055e87e8f40bf6f2b507b50c57384dc"
+    },
+    {
+      "path": "character-pipeline/schema/character.schema.json",
+      "bytes": 30912,
+      "sha256": "a066afaf6bb9bbb9e73d78154663bb2541488b9e89f463693a985b7ec086ebb8"
+    },
+    {
+      "path": "character-pipeline/schema/effect-plan.schema.json",
+      "bytes": 4860,
+      "sha256": "b408cfa930237fec40270de27f9911adba6e80b1ef21b2fad5e6998f33583f6d"
+    },
+    {
+      "path": "character-pipeline/test/animation-inventory-build.test.js",
+      "bytes": 7331,
+      "sha256": "bcc1d3a6510cd7fa400409c46c273f8667c8247649e25b1adb26e6ba3396a4bf"
+    },
+    {
+      "path": "character-pipeline/test/animation-inventory.test.js",
+      "bytes": 5842,
+      "sha256": "fca5f83ce7807efd624e04604ae5143b4b8dfe014469eeeef5f9cd18d00185cf"
+    },
+    {
+      "path": "character-pipeline/test/animation.test.js",
+      "bytes": 5898,
+      "sha256": "a9619f2973a107b6c375bc3e3f3509c5c7dc655999df101cea3b79fd4504edba"
+    },
+    {
+      "path": "character-pipeline/test/artwork-review.test.js",
+      "bytes": 11226,
+      "sha256": "c59a55e9d29e0d1e323b9623912257b451713b15c970e61d2b3c9ed318c77529"
+    },
+    {
+      "path": "character-pipeline/test/artwork.test.js",
+      "bytes": 18971,
+      "sha256": "6ff9ce94fe6ba51eb6cff2c1df21da0165237e731bbea537ef8aa1acb1eac9a3"
+    },
+    {
+      "path": "character-pipeline/test/assembly-preview-planning.test.js",
+      "bytes": 9127,
+      "sha256": "5bf1d6f584ef015acba354ae7fb63af0c829319b35b8eaf8b0dc2dbb1988cbb4"
+    },
+    {
+      "path": "character-pipeline/test/assembly-preview.test.js",
+      "bytes": 18696,
+      "sha256": "19048dfe60cecd6f7d473f98d6835005e3dda4c6df8750b57dbf808c100f5b90"
+    },
+    {
+      "path": "character-pipeline/test/assets.test.js",
+      "bytes": 2740,
+      "sha256": "084da4fa1d947e01b17d74934154f6192d82d9cd4d9b69b29b876feadd41304a"
+    },
+    {
+      "path": "character-pipeline/test/audio-eligibility.test.js",
+      "bytes": 2453,
+      "sha256": "fcbe8f95360316cdac7310afbc94b586a6b6704e1af97c956e63922c7a20a9fd"
+    },
+    {
+      "path": "character-pipeline/test/audio-format.test.js",
+      "bytes": 5545,
+      "sha256": "9e040c60bc966d23f2a14ac4024e5a950f4453e71b50d4d249c3583bbbe2e95f"
+    },
+    {
+      "path": "character-pipeline/test/audio.test.js",
+      "bytes": 5669,
+      "sha256": "6de59acb12e9810079ee96845aa383557f3d8ae121fc28ae0bc0f82665aebbe0"
+    },
+    {
+      "path": "character-pipeline/test/authored-geometry.test.js",
+      "bytes": 10544,
+      "sha256": "3380c5a760ee0908910b9e3fa00936984fec562ca70af2e448cdecd78a4b517e"
+    },
+    {
+      "path": "character-pipeline/test/cli.test.js",
+      "bytes": 58482,
+      "sha256": "a48acc73025a7d06436854e9f6c723ba8e4b147829cf85ecd91251426bdee023"
+    },
+    {
+      "path": "character-pipeline/test/comfyui.test.js",
+      "bytes": 28073,
+      "sha256": "f0e460a08dd9a5c03a02b602a27f1738e4d972dfb0c2d5ddf49846c77096fdb4"
+    },
+    {
+      "path": "character-pipeline/test/compile-repair.test.js",
+      "bytes": 13895,
+      "sha256": "cc380451486ccb94271917d852532a392b11e0afe32b59340587c6b674a2276f"
+    },
+    {
+      "path": "character-pipeline/test/component-authoring.test.js",
+      "bytes": 6064,
+      "sha256": "0f17ebda90299f410849db50e8ed7d28e4d03f67f920bbb9e6397916467dfb0a"
+    },
+    {
+      "path": "character-pipeline/test/component-build.test.js",
+      "bytes": 14336,
+      "sha256": "ee883129e79a165bf921d156241997d1450e2beff3fc3fd03b0eced6e8e4c4aa"
+    },
+    {
+      "path": "character-pipeline/test/components.test.js",
+      "bytes": 13893,
+      "sha256": "588f66ce6245b0dc193bf3b289429ad32e909f10acea932550bd1f3c305ecc8b"
+    },
+    {
+      "path": "character-pipeline/test/concepts.test.js",
+      "bytes": 5392,
+      "sha256": "f9e32defa7228b8cc01d2049a141f9656635bd11e6635fbc8155c190e1de8098"
+    },
+    {
+      "path": "character-pipeline/test/coverage.test.js",
+      "bytes": 7102,
+      "sha256": "947b0261009ef9bdf59a4bcc6679ed76e5a2467c198d186ad1e44f67ab0ed543"
+    },
+    {
+      "path": "character-pipeline/test/delivery.test.js",
+      "bytes": 25626,
+      "sha256": "dccfc60892f516647bcf53c4e32f836bc0ea673b42e0dc063b8e122474559d07"
+    },
+    {
+      "path": "character-pipeline/test/discovery.test.js",
+      "bytes": 8481,
+      "sha256": "6d55d344cf8466ff3d8786fde18bccda6ff85efb858dda5be2715cc8c24721d1"
+    },
+    {
+      "path": "character-pipeline/test/effect-animation.test.js",
+      "bytes": 2732,
+      "sha256": "3ec908b6840e32b388b66169569a6e6910de934c59decce9ac5deb54c5e70cc9"
+    },
+    {
+      "path": "character-pipeline/test/effect-build.test.js",
+      "bytes": 9396,
+      "sha256": "bace8da31154b75c0591e12adde83e2cea9a5e25397c399c76e29f28db8c0c05"
+    },
+    {
+      "path": "character-pipeline/test/effect-plan.test.js",
+      "bytes": 4440,
+      "sha256": "e47f31c12389bc9d0027adea9dcf0c4a7c8563502c14cc00bc174f1e9b417168"
+    },
+    {
+      "path": "character-pipeline/test/effect-request.test.js",
+      "bytes": 19674,
+      "sha256": "4f9360742626ecf662492158ba5b534c926905cb72fb7636ce78aa8d6aff985a"
+    },
+    {
+      "path": "character-pipeline/test/effects.test.js",
+      "bytes": 8226,
+      "sha256": "0a0f49476be47b273acf188210a8d7594ea02e24efe0f33bd1bea2c8c263a780"
+    },
+    {
+      "path": "character-pipeline/test/engine.test.js",
+      "bytes": 122209,
+      "sha256": "ee488ee5e7e4adbbd62acbc88ae58567a92ed057214fa0ad02dddd518d841b20"
+    },
+    {
+      "path": "character-pipeline/test/export.test.js",
+      "bytes": 8562,
+      "sha256": "3d5a18ee317e607593320ac177f54fc8ad0e3779d7e12d299ba78189ae83bc6c"
+    },
+    {
+      "path": "character-pipeline/test/fixtures/process-child.cjs",
+      "bytes": 981,
+      "sha256": "c5171aa3e145b4dd8029cf5bb81592c66b31922f5516ad26f9cce985080d3af7"
+    },
+    {
+      "path": "character-pipeline/test/game-isolation-report.test.js",
+      "bytes": 1099,
+      "sha256": "528d684a3d6f5add715800a8253188e3f7a03b0e810ebac641b45d4c9eb2c3c0"
+    },
+    {
+      "path": "character-pipeline/test/generated.test.js",
+      "bytes": 19937,
+      "sha256": "917f6fdd3cc36a424df3687acdc6ae550342fb54419ab5f7faad13ab117e5cb6"
+    },
+    {
+      "path": "character-pipeline/test/godot.test.js",
+      "bytes": 62851,
+      "sha256": "db0f0688b6a044a610380e90e13fa87fd5df80e4381815b6b069b11712cf4f68"
+    },
+    {
+      "path": "character-pipeline/test/godot/amplitude_repair_native.js",
+      "bytes": 5662,
+      "sha256": "83e26c34d471629d571211549c451ea11ed9210f708301db04cb638dd61847e6"
+    },
+    {
+      "path": "character-pipeline/test/godot/animation_native.js",
+      "bytes": 4342,
+      "sha256": "5bb7ef3ead50509ddfed8eae555025e4c45bad86332dd542cfebf11fea8f0829"
+    },
+    {
+      "path": "character-pipeline/test/godot/animation_runtime.gd",
+      "bytes": 3312,
+      "sha256": "df01f4ed12f3545392f1ae41523285b42bfc54bbe05e871724727d817d9a976e"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_audio_native.js",
+      "bytes": 7009,
+      "sha256": "11ec62c5ba9949bf8b2b7a18ea12e44d133123d2ac4180819d7eb8a7a09563f7"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_native.js",
+      "bytes": 4799,
+      "sha256": "73fc2676732fd51ce4ddbeca378a9a56702de9d1700d2513a5263773b4adf8ef"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_planner_native.js",
+      "bytes": 8037,
+      "sha256": "6b0804617851836e2875521d53af95440239b8d3e17b288eac4afc9c1135467a"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_planner_runtime.gd",
+      "bytes": 3275,
+      "sha256": "cd90b003d21234ffecaa85b17c9e27a5e0c339bed2cf525fe99aa3bda5aa8f5d"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_preview_native.js",
+      "bytes": 4826,
+      "sha256": "c353157ceb296155cdbc629cd5405f66906ae601bf39281517cdd6aa19d30c81"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_runtime.gd",
+      "bytes": 18353,
+      "sha256": "d78bf5d1291c8c338e7b94cd5d7cfad46f0f9e7dee83fd7ca0b1df42176a7084"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_transport_native.js",
+      "bytes": 4352,
+      "sha256": "f63d067b037240f9a97165f8a11fc6e9db9a157a8d937c19985b8114dd244d9d"
+    },
+    {
+      "path": "character-pipeline/test/godot/assembly_transport_runtime.gd",
+      "bytes": 18790,
+      "sha256": "7b00c07beff126c88c1af2c86b5785b87d8ce1aa3a1997d38dc38f2b12196ef9"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_bus_native.js",
+      "bytes": 2036,
+      "sha256": "a9a2a96346a7d48835f18e06b26f92ccec1121d6b7946e9e0715afdca446a68f"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_bus_probe.gd",
+      "bytes": 3076,
+      "sha256": "9afae010b740ff7ab36ce6113f60a100b8f2f622e46873c41535db870cd035a8"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_delivery_native.js",
+      "bytes": 6574,
+      "sha256": "3647e3f4173a89e589010b3470aff1987ffd50507082bfd79aade4243e52fffe"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_native.js",
+      "bytes": 3793,
+      "sha256": "bd5f82503e759ccc79daa5afec3c0a96eac50d2fc991c3e1bb165bfa004d5d32"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_relocation.gd",
+      "bytes": 1006,
+      "sha256": "4e9459aea3b39fa856037c970eb95c9e82319e2281be9065b438e43372a6a109"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_relocation.js",
+      "bytes": 2597,
+      "sha256": "3a8c31868ded56fa4000452d17a141bda379c2339dad4a8a6b1fa7abc66471cc"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_resources_native.js",
+      "bytes": 3298,
+      "sha256": "bd9ec97f50c12bfd9e7995f210124604d11d7513d8ae1f6c0d3d38f67780ee01"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_resources_runtime.gd",
+      "bytes": 911,
+      "sha256": "eaa2f454d29fbc809a92d164487cca13fbf145a841a265b40b53913e7e58fa65"
+    },
+    {
+      "path": "character-pipeline/test/godot/audio_runtime.gd",
+      "bytes": 8222,
+      "sha256": "b928882d5a37b8474307663beedf600c765bf0e929af9cb7e2276e9d94e815e5"
+    },
+    {
+      "path": "character-pipeline/test/godot/blend_native.js",
+      "bytes": 2917,
+      "sha256": "6527ebafe3741c5c575d0fb4910f1c482d5c3c61ddc9186bd434f3b8a23d188a"
+    },
+    {
+      "path": "character-pipeline/test/godot/blend_runtime.gd",
+      "bytes": 9408,
+      "sha256": "566cac7510126b962b904d62517e834e19c9a55298bc9364d6a85b2d436a46c3"
+    },
+    {
+      "path": "character-pipeline/test/godot/bow_native.js",
+      "bytes": 7941,
+      "sha256": "0a1f29dd8782f24bfdb6e1833c9188365e0dfb88325c6b5ca3947d45fa7e5c76"
+    },
+    {
+      "path": "character-pipeline/test/godot/bow_runtime.gd",
+      "bytes": 17720,
+      "sha256": "467f5bef9ca020c9c575b254a0360deb1b45f16e85e0a524fff82d497965da15"
+    },
+    {
+      "path": "character-pipeline/test/godot/canvas_metadata_native.js",
+      "bytes": 3474,
+      "sha256": "206e84f516040a0a8e820d6afadb5da8e05e51e8dfa6cbd97d3ef9f09d8e94a0"
+    },
+    {
+      "path": "character-pipeline/test/godot/component_compile_native.js",
+      "bytes": 5422,
+      "sha256": "64229eb568ae87f5136d2e2133906b8f9f2af726c20f69fd855a5211d87092c3"
+    },
+    {
+      "path": "character-pipeline/test/godot/component_compile_runtime.gd",
+      "bytes": 9981,
+      "sha256": "9f7dccc14c2a12f1d300cb139cbe6b05a67334f5f360f81d380a922c682f2935"
+    },
+    {
+      "path": "character-pipeline/test/godot/component_engine_native.js",
+      "bytes": 14857,
+      "sha256": "df77920b19a4410c3ce3be158d84c42f91cfacdfdcaed929223b11112205b31b"
+    },
+    {
+      "path": "character-pipeline/test/godot/component_native.js",
+      "bytes": 1754,
+      "sha256": "c53634872e7859407539a5fbd3d77b8433301c1ce6298bdbcc22b95daed8ec6e"
+    },
+    {
+      "path": "character-pipeline/test/godot/component_runtime.gd",
+      "bytes": 20507,
+      "sha256": "2aa98187f5f6541c9e0faddb49e257c5833ebc8132da6a25f73c3b96081ce007"
+    },
+    {
+      "path": "character-pipeline/test/godot/delivery_native.js",
+      "bytes": 7149,
+      "sha256": "d64733117b845563584368f4de7732c08655b754305bb4bcb50552f1b47396e0"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_atlas_native.js",
+      "bytes": 12494,
+      "sha256": "177f02f8a2aa84338f8f6c22f2d5432ba806d3fd7c671484302c194bfa484eeb"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_atlas_runtime.gd",
+      "bytes": 3112,
+      "sha256": "7ff2323da67928853e52da008f2332d357456c3023c92f3cb0ae679428bbf727"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_boot_native.js",
+      "bytes": 2369,
+      "sha256": "300af84cb55b088491eb0f65547a304a1827d6af30036c7adefc54440751dedb"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_boot_probe.gd",
+      "bytes": 2245,
+      "sha256": "be7368b3515f894cae2d59c38f7ec48382f72a598f927b00bed49213e0b657ba"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_compile_native.js",
+      "bytes": 4677,
+      "sha256": "06211aed5047a9d73edb900d1edf44aba7597f051515eb9c7d2ad0d876d14ba5"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_compile_runtime.gd",
+      "bytes": 2050,
+      "sha256": "0873160e606c56176179dc8b351a2ef42d1bfaa88ccecb6d542139d001f64995"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_engine_native.js",
+      "bytes": 7803,
+      "sha256": "cf1e3cdb4aaad0161874bd6bc4a87d2fc4c9838aff00a900ea709cbc35dd012c"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_native.js",
+      "bytes": 1880,
+      "sha256": "8ccc4f97422835da3b24cbe5ed20a138bab3310b40104d24690578074e0de2a4"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_rules_native.js",
+      "bytes": 4310,
+      "sha256": "0da5cab20cbe7650c599acc2973c72f905d4d8a32d8431dc22d6a3ccfb4d807c"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_rules_runtime.gd",
+      "bytes": 6064,
+      "sha256": "fe9c03d7df580d5d5c99ac4d42689cd09fcd131f597d32ac9f8735698d76eed1"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_runtime.gd",
+      "bytes": 10501,
+      "sha256": "d674e1f8227c6d8a531b387c447d465cead3fbbda44287c376ceaae852f972d4"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_scene_native.js",
+      "bytes": 1949,
+      "sha256": "bee8e3724589f3781d833f478e0eb18d6de1bd19e7f33c0dc20457aae5d6a6d8"
+    },
+    {
+      "path": "character-pipeline/test/godot/effect_scene_runtime.gd",
+      "bytes": 12948,
+      "sha256": "82bf4e2e47a56c9b1b12a1754bc5203591396ae482ac644a8342066ebc499cd9"
+    },
+    {
+      "path": "character-pipeline/test/godot/frozen_reuse_native.js",
+      "bytes": 23294,
+      "sha256": "9e4ef4743ca6a5098156970944dd102a4fe8aa4f68f71d7af2df8f561caff5d1"
+    },
+    {
+      "path": "character-pipeline/test/godot/game_pack_isolation_native.js",
+      "bytes": 3375,
+      "sha256": "0c206bc8f3334e175f07d8d5f5e087386e2deb3534438bbdd229b17f1ebea749"
+    },
+    {
+      "path": "character-pipeline/test/godot/game_pack_isolation_runtime.gd",
+      "bytes": 1581,
+      "sha256": "3c6bfb7993c533cab15fedb6a68e9143dea6dd5ec5a7f87537ae3cda746c7185"
+    },
+    {
+      "path": "character-pipeline/test/godot/impact_compile_native.js",
+      "bytes": 3810,
+      "sha256": "8bb5422329102a171275ec55f298fba1ec851a43b7273c07fa4fb306a92c7cdf"
+    },
+    {
+      "path": "character-pipeline/test/godot/impact_compile_runtime.gd",
+      "bytes": 3197,
+      "sha256": "75e817b1cdaa258ac54496d42821e79a838dce11ef00b8720adf87f8892d043c"
+    },
+    {
+      "path": "character-pipeline/test/godot/impact_scene_native.js",
+      "bytes": 2018,
+      "sha256": "7fa20d7effdecac11486d0f517f18515cc1dfed335faeabcde7ec82ee3458d75"
+    },
+    {
+      "path": "character-pipeline/test/godot/impact_scene_runtime.gd",
+      "bytes": 10481,
+      "sha256": "ab49f2d33673b049951ed6bd6af1e44372fa7ebb206e85c3671489300d5fb616"
+    },
+    {
+      "path": "character-pipeline/test/godot/layers_native.js",
+      "bytes": 4990,
+      "sha256": "aedf38fac4e8af2a4b547503659b5f0f3913553c7f0a29a3c0374f2e8e09fcf8"
+    },
+    {
+      "path": "character-pipeline/test/godot/marker_runtime.gd",
+      "bytes": 2931,
+      "sha256": "07630f600152e301661884ec2c61fca6a208361e3221b6131ed8c76d039f0f4b"
+    },
+    {
+      "path": "character-pipeline/test/godot/native.js",
+      "bytes": 6541,
+      "sha256": "79f30e2b5f2df739fb5474bb4a5645b70567fa46b11fc9cc5878cfba7518291b"
+    },
+    {
+      "path": "character-pipeline/test/godot/overlap_engine_native.js",
+      "bytes": 6729,
+      "sha256": "05af3e64aa503e4588cc7ff2c1bb3f4dda5c675d0dca57a2b36d1c6a173db269"
+    },
+    {
+      "path": "character-pipeline/test/godot/pack_export_native.js",
+      "bytes": 4189,
+      "sha256": "6c14bcd26cf6618a4100633e0da44dd0abdb953a37f0a12d7516fb79f121c945"
+    },
+    {
+      "path": "character-pipeline/test/godot/pack_export_runtime.gd",
+      "bytes": 1413,
+      "sha256": "5fbabcdb11bfd74e20964e2f573a64b4a7e01376b5c4644f1b49c7b767067a5f"
+    },
+    {
+      "path": "character-pipeline/test/godot/part_masks_native.js",
+      "bytes": 5621,
+      "sha256": "dd514ab95385dccfbfe0a85f8e58e75d6d5d49e5c2592b8fcc5b897b70602e46"
+    },
+    {
+      "path": "character-pipeline/test/godot/pipeline.js",
+      "bytes": 2515,
+      "sha256": "9fbd090c1617fc9b7d0d9bc727c5b4edb1c8fabe7f8012655a30c332322e43a2"
+    },
+    {
+      "path": "character-pipeline/test/godot/pose_runtime.gd",
+      "bytes": 9108,
+      "sha256": "5687b6ef344f1916ac29094d92f6987e0f12162bdacb0a9e78af8a2ba382755d"
+    },
+    {
+      "path": "character-pipeline/test/godot/recovery_native.js",
+      "bytes": 1867,
+      "sha256": "4737e09672fe39d59e8725c213e4b59835213813c4bd0bdcd211cbea1cf641e6"
+    },
+    {
+      "path": "character-pipeline/test/godot/recovery_runtime.gd",
+      "bytes": 20660,
+      "sha256": "28a87609d8d6864e6d6c591fefe2499327841a16f8831a5e8ae07786402a840d"
+    },
+    {
+      "path": "character-pipeline/test/godot/render_layout_native.js",
+      "bytes": 3959,
+      "sha256": "92e3fda65ed64f1b33ed30f1599949cff774fbfff773c66d071c9e38e8640de5"
+    },
+    {
+      "path": "character-pipeline/test/godot/skinning_native.js",
+      "bytes": 7881,
+      "sha256": "fd00e1b733d74e28fe622812067cd2671aebd70e61335c0f4ba6992b1f4503c5"
+    },
+    {
+      "path": "character-pipeline/test/godot/startup_probe.gd",
+      "bytes": 737,
+      "sha256": "1b6f645040133b212e5d128b24f41c9a993b58cbd69c310bd9c4d8d50b074120"
+    },
+    {
+      "path": "character-pipeline/test/godot/state_reconciler_native.js",
+      "bytes": 7325,
+      "sha256": "7dd690d365fb9f333e71c79b478d3d4161297d7896f99a3c87c17d11d24c9686"
+    },
+    {
+      "path": "character-pipeline/test/godot/state_reconciler_runtime.gd",
+      "bytes": 4224,
+      "sha256": "31fc26286e354550db6e6475aaf82b15ec02a0651c3387980e69498b6b175cec"
+    },
+    {
+      "path": "character-pipeline/test/godot/telemetry_compile_native.js",
+      "bytes": 7608,
+      "sha256": "bce4fa509c264cc2cc38a97220d2eec28eaf486ee30db7bd85ba0d96b1200352"
+    },
+    {
+      "path": "character-pipeline/test/godot/telemetry_native.js",
+      "bytes": 5027,
+      "sha256": "4e43b56208a591e7f36b86ef62381321ccf259375f687e1972c7713cc5ed6abb"
+    },
+    {
+      "path": "character-pipeline/test/godot/telemetry_runtime.gd",
+      "bytes": 8481,
+      "sha256": "ee5f069ed41e0bebd9aded092b2352322822b0c7d55b49f34752f3101a3afac1"
+    },
+    {
+      "path": "character-pipeline/test/godot/texture_storage_native.js",
+      "bytes": 1381,
+      "sha256": "931e2d8e4b06256ffd8e4f36ed6241fa8bed8bac4b077dce0942b24514ddd4e5"
+    },
+    {
+      "path": "character-pipeline/test/godot/texture_storage_runtime.gd",
+      "bytes": 1481,
+      "sha256": "b78a8a566f95f5b8cc626b2de4b69231365e09aa7c40b19abcb6f43b7b854145"
+    },
+    {
+      "path": "character-pipeline/test/godot/verify_frames.py",
+      "bytes": 1438,
+      "sha256": "f6f4aa239fabc0327fc54f0f6b26f80ca21837041969cbb24e3b9689cee0ac3a"
+    },
+    {
+      "path": "character-pipeline/test/godot/visual_state_native.js",
+      "bytes": 2975,
+      "sha256": "2f17849f75166b09e0a08e53fa57585d13f226e2c153fc73a67c47c8bf487670"
+    },
+    {
+      "path": "character-pipeline/test/godot/visual_state_runtime.gd",
+      "bytes": 4892,
+      "sha256": "c6af70bb6518c6bd8054e020f4c199d363d3db2f2c0d8ec81d8d81be7b7a7025"
+    },
+    {
+      "path": "character-pipeline/test/graphics-prerequisites.test.js",
+      "bytes": 3719,
+      "sha256": "3daa934be6e8d23dbd0ae175d6847ea4c199919ce0e4a945dc763a746696bd52"
+    },
+    {
+      "path": "character-pipeline/test/image-tools.test.js",
+      "bytes": 5762,
+      "sha256": "685edd7d7d26553ecd9dc36c0091eb241a51db83b82dbca82975c8380406eb61"
+    },
+    {
+      "path": "character-pipeline/test/jobs.test.js",
+      "bytes": 21082,
+      "sha256": "61871468c7f2e25d977f3e02a4e8b62572f0408a2b3db0cec39550122938cfff"
+    },
+    {
+      "path": "character-pipeline/test/mask-inspection.test.js",
+      "bytes": 6251,
+      "sha256": "5a384a01959460fd887a3ce7675274af56a8a206d0abc4168c331a309554c736"
+    },
+    {
+      "path": "character-pipeline/test/mechanics.test.js",
+      "bytes": 3295,
+      "sha256": "2b85230468f2ebfe60777176d0cc67ad65639617145d4518740052975c2d640d"
+    },
+    {
+      "path": "character-pipeline/test/mod-package-build.test.js",
+      "bytes": 9085,
+      "sha256": "15790e4870009862a8f8bbd4397e142822a18cb658a88893d1e9c66b3b7d2d60"
+    },
+    {
+      "path": "character-pipeline/test/mod-package-request.test.js",
+      "bytes": 16701,
+      "sha256": "5fe8ab3392152c9ec8be9f16130aff9890160cd5d8de874dc20d1c7f5bf6c58b"
+    },
+    {
+      "path": "character-pipeline/test/mod-package.test.js",
+      "bytes": 9786,
+      "sha256": "f67a00f6908f21a76611b93fd7e5e57bbad45af9becf85ed9395df58f552fe2b"
+    },
+    {
+      "path": "character-pipeline/test/motion-preview.test.js",
+      "bytes": 3460,
+      "sha256": "4fffeb4a296ec6e47cf427ea017f50ba49a0bb59728bc48c65adf794328a3631"
+    },
+    {
+      "path": "character-pipeline/test/motion-registration.test.js",
+      "bytes": 6898,
+      "sha256": "4519fb58665532bdf4469be8ab045c2173b5b5aa8dc38d5676e9940630f83543"
+    },
+    {
+      "path": "character-pipeline/test/motion-sampling.test.js",
+      "bytes": 11026,
+      "sha256": "80d76b336f67411d8a1ebccf50ef357ed342ad6e9313056d0c2ddf207efe455f"
+    },
+    {
+      "path": "character-pipeline/test/native-audio-resources.test.js",
+      "bytes": 10008,
+      "sha256": "62e9612579d2bcf180fa753945648ae3aeb4a7ba2db04c55cd85907dc01b4f00"
+    },
+    {
+      "path": "character-pipeline/test/native-launch.test.js",
+      "bytes": 3138,
+      "sha256": "b657419091d90375b47e872435dc2e80530e49f8a42de7797f58cab3464b7750"
+    },
+    {
+      "path": "character-pipeline/test/native-skinning.test.js",
+      "bytes": 12560,
+      "sha256": "1fe56bfe59e629ef6e33b01e49c142543e5dbf675b0785f8926a35bb65b18097"
+    },
+    {
+      "path": "character-pipeline/test/overlap-planning.test.js",
+      "bytes": 5503,
+      "sha256": "0d4d79a5a3fbae1f33738c9c78ee043aa700db93b979728cb0443d868df029ae"
+    },
+    {
+      "path": "character-pipeline/test/pack-export.test.js",
+      "bytes": 9871,
+      "sha256": "f489f94510ae44b0f80f161d67f0704c1914baabce76b8d9edc45a09f70e1afc"
+    },
+    {
+      "path": "character-pipeline/test/package-size.test.js",
+      "bytes": 5984,
+      "sha256": "3650fe20840f3ba4f4b258cc43e6d3647ef5a9d22466fc3846a8ec1e03b45e05"
+    },
+    {
+      "path": "character-pipeline/test/pose-spec.test.js",
+      "bytes": 4591,
+      "sha256": "2cb21129b321a1f7bef90df0f6862b7405c7da466d41f51917952d47322141df"
+    },
+    {
+      "path": "character-pipeline/test/process.test.js",
+      "bytes": 7244,
+      "sha256": "d05ba5f7d26514d0b68c3982f344afe58fa51cfdfa3b7315a6de2361eff15a44"
+    },
+    {
+      "path": "character-pipeline/test/python-tool.test.js",
+      "bytes": 963,
+      "sha256": "2e32d6cc1f8796e1387da6bf0b098b2d3dcc508500265b030b9fe59699b00781"
+    },
+    {
+      "path": "character-pipeline/test/python/run_background_tests.py",
+      "bytes": 2961,
+      "sha256": "a192e8cc11baacf50bf65dd3f7965541daea01ae35cc18cf72712422aeb57213"
+    },
+    {
+      "path": "character-pipeline/test/python/run_image_tests.py",
+      "bytes": 3344,
+      "sha256": "35f5a5497a3444ddfcfe8437d0ae3dda6ce54a009f3a34c5eb1a6f5e060791d1"
+    },
+    {
+      "path": "character-pipeline/test/python/test_audio.py",
+      "bytes": 7104,
+      "sha256": "012347035e9f1d82fe8f0c92959888db141a3561dd549b7dd8d704ad30d32cf9"
+    },
+    {
+      "path": "character-pipeline/test/python/test_background.py",
+      "bytes": 6106,
+      "sha256": "2c30d7039b2a3fa773fe97a2da4df86bdcb32ca0996619bb9fff1965f30e6ce5"
+    },
+    {
+      "path": "character-pipeline/test/python/test_images.py",
+      "bytes": 13050,
+      "sha256": "d22d659ae83a3a8bb257c6cec7e2cea16d8785254a28c73678d7ea25a1c40d29"
+    },
+    {
+      "path": "character-pipeline/test/python/test_masks.py",
+      "bytes": 3807,
+      "sha256": "a0e4b8879dc9027c58c479462eed3167a71ace87724b5db7b59eaa35ceb503b2"
+    },
+    {
+      "path": "character-pipeline/test/python/test_motion.py",
+      "bytes": 5721,
+      "sha256": "336fd2c35923dea0c6a616e57dca056ddc9955e4e6c9b200e20a07f1a70af8c4"
+    },
+    {
+      "path": "character-pipeline/test/python/test_preview.py",
+      "bytes": 6896,
+      "sha256": "f5f5c4f56576a413da9a7b7e6a7b366a676ca80a2436ba79514148c69fa85bfe"
+    },
+    {
+      "path": "character-pipeline/test/python/test_repaint.py",
+      "bytes": 7229,
+      "sha256": "ea969cecb8182af123ddaeff4100042e80101b3415f44c14f645e54db892830c"
+    },
+    {
+      "path": "character-pipeline/test/python/test_visual.py",
+      "bytes": 6436,
+      "sha256": "948b1a6a51c0685645fc7369dabdac0a1f5b98f10236377e075de2c5416ed424"
+    },
+    {
+      "path": "character-pipeline/test/render-layout.test.js",
+      "bytes": 1668,
+      "sha256": "ad4cf27b680bfb820dbf26a040ad9d4a2e5a131c2e64709c3fe7fd7c69bdfb51"
+    },
+    {
+      "path": "character-pipeline/test/repair-operators.test.js",
+      "bytes": 14881,
+      "sha256": "8a8076821274f2dbcd1267b619aa781c5db5c380ea46b121ff4f9484c2ab0221"
+    },
+    {
+      "path": "character-pipeline/test/repair.test.js",
+      "bytes": 9079,
+      "sha256": "91255c7a02559797614e946c20bbadf6f1023c6ae72bd88b109386a5ccecaa4a"
+    },
+    {
+      "path": "character-pipeline/test/rig.test.js",
+      "bytes": 14081,
+      "sha256": "780cb2058b59553db266cf78cb96803eda35ca7bd33ad08352cc86b31782c1d1"
+    },
+    {
+      "path": "character-pipeline/test/runtime-manifest.test.js",
+      "bytes": 23128,
+      "sha256": "c0562153d32f34ec6c50479a4cdd20f138b0328ed847ffbcf75dbdf5ad4a0325"
+    },
+    {
+      "path": "character-pipeline/test/scheduler.test.js",
+      "bytes": 10376,
+      "sha256": "175d7d44fe86b777bc4ff126dc7a3e22865ce7d33ca72f397342e919d9c90be8"
+    },
+    {
+      "path": "character-pipeline/test/spec.test.js",
+      "bytes": 20741,
+      "sha256": "41f0360fc502a3d77bbac047ea2568a373d1580a656d6b12d1022e00ca5dd3ba"
+    },
+    {
+      "path": "character-pipeline/test/stage-source.test.js",
+      "bytes": 7407,
+      "sha256": "d7fcfd44429360d51ed3641e8873e04690aa0c235028a928bd2286d1b3ebd4de"
+    },
+    {
+      "path": "character-pipeline/test/state.test.js",
+      "bytes": 9891,
+      "sha256": "5a838262113108364aa64f122e56ff9a5178d9b7e5b67420db1d4babbe69bd7d"
+    },
+    {
+      "path": "character-pipeline/test/sts2-integration.test.js",
+      "bytes": 10597,
+      "sha256": "ec09429c0eadcbed1ef83f2a2673387c2746fd35488fd4ca04286b7f76bc3017"
+    },
+    {
+      "path": "character-pipeline/test/sts2/AssemblyStateHarness.cs",
+      "bytes": 16382,
+      "sha256": "7d4176622fb8a443ff08c8abd8f86052d1b4e123f57441df905ac71ae1d24571"
+    },
+    {
+      "path": "character-pipeline/test/sts2/AttackPresentationHarness.cs",
+      "bytes": 5336,
+      "sha256": "d9bd0401f763647c4eadc4921dffa93f8ce3e4d09986acfcc40acef9b0f21b9d"
+    },
+    {
+      "path": "character-pipeline/test/sts2/ColdPrefetchTraceHarness.cs",
+      "bytes": 4106,
+      "sha256": "57687b60cf6f20cae57b80f5fb0f4d869a940ce2e3dcec03ca349d9b6ff4272c"
+    },
+    {
+      "path": "character-pipeline/test/sts2/ColdScriptWarmupHarness.cs",
+      "bytes": 2368,
+      "sha256": "aa6f8406f68dcf1b1dbfe824413f9894cb0b01b646cebc2bad86bf5001435fee"
+    },
+    {
+      "path": "character-pipeline/test/sts2/CombatCallerHarness.cs",
+      "bytes": 31230,
+      "sha256": "e556c04e07ad7d09568d55d0dcd795fcdd8be4c12555d4cf2145f50ee720a1ef"
+    },
+    {
+      "path": "character-pipeline/test/sts2/CombatCallerPackageHarness.cs",
+      "bytes": 5552,
+      "sha256": "d29c2c5a9cac67be4fba4e4ca5075dda4c10785256077877748fbd17b35f1b93"
+    },
+    {
+      "path": "character-pipeline/test/sts2/CreatureAssemblyHarness.cs",
+      "bytes": 8795,
+      "sha256": "5e8f3a541ccfc948fe7bb4ed42c48f471b02e68d8647bf19575cf167be79a68a"
+    },
+    {
+      "path": "character-pipeline/test/sts2/CreatureHookHarness.cs",
+      "bytes": 10950,
+      "sha256": "b9468140348ad814d177f03389e174b4189381bcbe9691009dd0a4476edd7070"
+    },
+    {
+      "path": "character-pipeline/test/sts2/EmptyModLoaderHarness.cs",
+      "bytes": 2861,
+      "sha256": "415ef362597f013c72ec87ae448d4b8cc6cee8d8b3da3c530c4e3aefb1af4dfc"
+    },
+    {
+      "path": "character-pipeline/test/sts2/GameScenePrerequisiteHarness.cs",
+      "bytes": 5819,
+      "sha256": "1bf13f334bce2fb7bd735ee91de1fd885833bc60a9f73910f72f6adc5047cf5c"
+    },
+    {
+      "path": "character-pipeline/test/sts2/GeneratedIntegrationHarness.cs",
+      "bytes": 1771,
+      "sha256": "c8301ca711b24a9ac693757efa74eeb8a9a34f74dabee38874e661d2599112fa"
+    },
+    {
+      "path": "character-pipeline/test/sts2/GeneratedModInitializer.cs",
+      "bytes": 2193,
+      "sha256": "bf2f73825e8d07a8cc5b2d9eab305a6258051ef18f934bdd3aa2ecf90759e108"
+    },
+    {
+      "path": "character-pipeline/test/sts2/GeneratedModLoaderHarness.cs",
+      "bytes": 4863,
+      "sha256": "7814565153e672a02d7f502aa916e78576fb29f03520b53eb444312922e24076"
+    },
+    {
+      "path": "character-pipeline/test/sts2/ImpactPackageHarness.cs",
+      "bytes": 8045,
+      "sha256": "08b18cfc8a12b16e1fb29d862bb6cc9b19f30d624db28931d49e5fe9d0ebe4be"
+    },
+    {
+      "path": "character-pipeline/test/sts2/IsolatedGameStartupHarness.cs",
+      "bytes": 13935,
+      "sha256": "e3a7bf269447f9544ffa6cd0a18f590f7c702ee8f8b59814c07155c5e8d09f43"
+    },
+    {
+      "path": "character-pipeline/test/sts2/ModdedGameStartupHarness.cs",
+      "bytes": 19185,
+      "sha256": "ee5bebf4c03766ea72b49fee9b43a9590d936df6977440bea39675a26e76eceb"
+    },
+    {
+      "path": "character-pipeline/test/sts2/OwnedModDiscoveryFileIo.cs",
+      "bytes": 8844,
+      "sha256": "7c7c2bcaeaf975439fa0c0535e703855e6c19fd51112d31b603b530207c26c55"
+    },
+    {
+      "path": "character-pipeline/test/sts2/OwnedModDiscoveryHarness.cs",
+      "bytes": 5604,
+      "sha256": "dd4d4f3bba01c5c9139f03baeefcbaf73e918d66563603013cbfb35d2a5f2a0b"
+    },
+    {
+      "path": "character-pipeline/test/sts2/OwnedModInitializer.cs",
+      "bytes": 942,
+      "sha256": "4fe171d4009360452b28aaf9ff5a1d69b9fb5c17ee1b17b8b2f75d419bad6c96"
+    },
+    {
+      "path": "character-pipeline/test/sts2/OwnedModLoaderHarness.cs",
+      "bytes": 3723,
+      "sha256": "a0df9db2e8a444ea261636e333d826784881d232e20a569b782dc7ab05194652"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PackagedModInitializer.cs",
+      "bytes": 2399,
+      "sha256": "c774740efbdb2fddb7593b512ced108e62ec5c1f435da064ede1cbb246a2f3fd"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PackagedModLoaderHarness.cs",
+      "bytes": 8224,
+      "sha256": "24f69249db98bd3998a21e5701c3acc6f741cd9a1b026bb96763c3ccd868a06f"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PackedVisualHarness.cs",
+      "bytes": 3433,
+      "sha256": "ab7daa15cf097a033ff75e4a3be4523a8b61a2ed35e20ffebaf933f05461f429"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PipelineCombatFixture.cs",
+      "bytes": 14338,
+      "sha256": "7ed16f6b0a14f8d15120112a63c31ebf07f59f19a96ff8adc4d07bdad25b59be"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PipelineCombatHarness.cs",
+      "bytes": 4651,
+      "sha256": "726a256ca67faa38b26bea8b6b5137e4e8d06b2a5aa7a7ca5fd4cde7a27f657a"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PipelineCombatPresentation.cs",
+      "bytes": 10690,
+      "sha256": "b9013b5502c55ffa8c037e734f1a2060704650e43043440693a8ce6e01d9aa79"
+    },
+    {
+      "path": "character-pipeline/test/sts2/PrefetchCompatibilityHarness.cs",
+      "bytes": 2606,
+      "sha256": "32480c36c3d87be1e8e21cefb7fe9bf1817808eea5ffe0d574eacd7789325b7b"
+    },
+    {
+      "path": "character-pipeline/test/sts2/VisualAdapterHarness.cs",
+      "bytes": 7043,
+      "sha256": "98f570a71d53d7d884944394944544ea6b3366c9c361c50fe165c225b42f5fd9"
+    },
+    {
+      "path": "character-pipeline/test/sts2/assembly_state_native.js",
+      "bytes": 5711,
+      "sha256": "5ed189bf4d818c26f550bd21b9bc7829841ed75f664ccfd1aa300009068c0d63"
+    },
+    {
+      "path": "character-pipeline/test/sts2/attack_presentation_native.js",
+      "bytes": 6611,
+      "sha256": "98f6ffeeef56903e22e6e3af4aa4f100309bce2b0c2ac9993cd62a03e9e2abde"
+    },
+    {
+      "path": "character-pipeline/test/sts2/cold_prefetch_trace_native.js",
+      "bytes": 5108,
+      "sha256": "9885574c1b2ef70fdf1585370a6a0544e68d49b665df1a8659cbf97cfc475cdd"
+    },
+    {
+      "path": "character-pipeline/test/sts2/cold_script_warmup_native.js",
+      "bytes": 3937,
+      "sha256": "31cd1d1faa0fc2e7862c2d9a215ae141fd6a6f07706b90b5810c861885d65934"
+    },
+    {
+      "path": "character-pipeline/test/sts2/combat_caller_native.js",
+      "bytes": 9950,
+      "sha256": "9bba7eba88898d21d19d9e81cee4f4c60b30c148c4254a7dd6548ddc85c5048d"
+    },
+    {
+      "path": "character-pipeline/test/sts2/combat_caller_package_native.js",
+      "bytes": 11396,
+      "sha256": "ae746e7a419c5d6b4696db58e478701eec061c69a63b7da11fa9427d5007100c"
+    },
+    {
+      "path": "character-pipeline/test/sts2/combat_presentation_fixture.js",
+      "bytes": 6746,
+      "sha256": "8d1acde7fa830bc7f767f241ba655cd5e9bc39a27aa66f030981891e3b1f32a3"
+    },
+    {
+      "path": "character-pipeline/test/sts2/combat_presentation_fixture.test.js",
+      "bytes": 4481,
+      "sha256": "7354e2230695e63ae485e9fada47f3c1742b319d5159354412808ba1768cdf94"
+    },
+    {
+      "path": "character-pipeline/test/sts2/creature_assembly_native.js",
+      "bytes": 5828,
+      "sha256": "7139c5d9f05b4e778f3db48ef27c9358dbc78028c531577391c13008baa38b2f"
+    },
+    {
+      "path": "character-pipeline/test/sts2/creature_hook_native.js",
+      "bytes": 6386,
+      "sha256": "aa5a43546646dc3ea446880190adc5f33a0f7f58fa0c1679dd17532d173fc313"
+    },
+    {
+      "path": "character-pipeline/test/sts2/empty_mod_loader_native.js",
+      "bytes": 3783,
+      "sha256": "ceb1fef699f45d3700ed2258e5bdd4a73c1beebcbab19cb4c4d13f81c80f9ab7"
+    },
+    {
+      "path": "character-pipeline/test/sts2/game_scene_prerequisite_native.js",
+      "bytes": 6151,
+      "sha256": "7067223368af8c33892c404a1b774b6eb3815af39163ca0f5508de9ce27be551"
+    },
+    {
+      "path": "character-pipeline/test/sts2/generated_integration_native.js",
+      "bytes": 6901,
+      "sha256": "5657f631fb78f0ffe343d73ff2c9f46984e68426cd114a84705abc8616fa21e6"
+    },
+    {
+      "path": "character-pipeline/test/sts2/generated_mod_loader_native.js",
+      "bytes": 9749,
+      "sha256": "4ea982a470fda03984631ed407dab3ce750e23b9f01811745296e97912a7a56b"
+    },
+    {
+      "path": "character-pipeline/test/sts2/impact_package_native.js",
+      "bytes": 14218,
+      "sha256": "5a48914c1194e41ea30409bd78f45a9628e1e3010b93a4f1b267a4bc5ebd14cd"
+    },
+    {
+      "path": "character-pipeline/test/sts2/isolated_game_startup_native.js",
+      "bytes": 6389,
+      "sha256": "3e5f2532b2d38e131a3082f442435699bfa9c662f638e16756e647de167728b0"
+    },
+    {
+      "path": "character-pipeline/test/sts2/mod_package_native.js",
+      "bytes": 9860,
+      "sha256": "47e3b2588635d309e92986bd30d01226c320d7c4f6ae2939cf3ff9005bad21f2"
+    },
+    {
+      "path": "character-pipeline/test/sts2/modded_game_startup_native.js",
+      "bytes": 14746,
+      "sha256": "dbc3ccab914f0d2f5dcc28986c59d6e85d6d58bf11ce9ce0b2e7472898d29b37"
+    },
+    {
+      "path": "character-pipeline/test/sts2/owned_mod_discovery_native.js",
+      "bytes": 3487,
+      "sha256": "65501d2e5b848bd5f69865ac3ac761ae7166f7e59e3740388b6f200fb9da4841"
+    },
+    {
+      "path": "character-pipeline/test/sts2/owned_mod_loader_native.js",
+      "bytes": 6201,
+      "sha256": "2c572d7e6b109601ec8534690149b4f12aa0fa697e94af5b9bccc514a361fb99"
+    },
+    {
+      "path": "character-pipeline/test/sts2/packed_visual_native.js",
+      "bytes": 4945,
+      "sha256": "2786798fd4d5ae096fd132fc26739fa20f28e44c3cef7262cf4714490aaf176f"
+    },
+    {
+      "path": "character-pipeline/test/sts2/pipeline_combat_native.js",
+      "bytes": 17531,
+      "sha256": "cf448efcba9c8a18ac6fcd430137688ffc1e16f8663c7b6d1be8eac4b56a71ea"
+    },
+    {
+      "path": "character-pipeline/test/sts2/prefetch_compatibility_native.js",
+      "bytes": 5518,
+      "sha256": "c63fb68935d00766b296ea3207019bd39a61956d132640ba5f5b75d5d9134fa7"
+    },
+    {
+      "path": "character-pipeline/test/sts2/visual_adapter_native.js",
+      "bytes": 3467,
+      "sha256": "a3dce00cc2a8f85a0060fba86f4c6b7ef5716b34113d86c2264b5715fad3c541"
+    },
+    {
+      "path": "character-pipeline/test/support/python-tool.js",
+      "bytes": 339,
+      "sha256": "e71a44fbc7110532ef68a91b0ecba4c23ace9829cc35b6d50e41f6c886dc490d"
+    },
+    {
+      "path": "character-pipeline/test/surface-coverage.test.js",
+      "bytes": 1552,
+      "sha256": "cbe0e82f20f88e7a2e6cdeb9f52f40d7faef1d8c946c5714f365fb0967783c04"
+    },
+    {
+      "path": "character-pipeline/test/validation.test.js",
+      "bytes": 4305,
+      "sha256": "df19be6732157bb178fa90a423ccb4d07d526e36faf1b7b2a2012d13520342be"
+    },
+    {
+      "path": "character-pipeline/test/visual-inspection.test.js",
+      "bytes": 4537,
+      "sha256": "29c92d1802871c31018d979ec00592830446616ef7c8a2226acdda671210a106"
+    },
+    {
+      "path": "character-pipeline/tools/coverage.js",
+      "bytes": 7630,
+      "sha256": "cfcf511d354abe43bd7559fc0cc683f8e9c8d759fb79a2fafa5da8c6bad4e9bf"
+    },
+    {
+      "path": "character-pipeline/tools/stage-source.js",
+      "bytes": 6073,
+      "sha256": "e8452d5948715549428f62750191e9b3ff92ccb85d24e3457516a99eb5d3670d"
+    },
+    {
+      "path": "character-pipeline/workers/audio.py",
+      "bytes": 7801,
+      "sha256": "ab55a29e279b983171255364a6aca343045b6f07f539a12c58fe883b9671dfd9"
+    },
+    {
+      "path": "character-pipeline/workers/background.py",
+      "bytes": 4045,
+      "sha256": "5e58987e41ddd5116c3ff90dbfc367f1102ca7af4ead61e076fefee193bbcb10"
+    },
+    {
+      "path": "character-pipeline/workers/images.py",
+      "bytes": 11307,
+      "sha256": "9f429123dfa0f51e6a5e0a7a05d468d89198c822c05c1626394c080526194c64"
+    },
+    {
+      "path": "character-pipeline/workers/masks.py",
+      "bytes": 4899,
+      "sha256": "08f59404c2162a13594527339b8fc842e5ba5f47f28a2034be3961bd4a2c6247"
+    },
+    {
+      "path": "character-pipeline/workers/motion.py",
+      "bytes": 8118,
+      "sha256": "e6fdda9325fe36187b49e0d117a5d5ea13889f556a0590cc575080f812ec9582"
+    },
+    {
+      "path": "character-pipeline/workers/preview.py",
+      "bytes": 2411,
+      "sha256": "8271e032a82f3e1a2260578731b453521b705475a77198b2976d1646bf078217"
+    },
+    {
+      "path": "character-pipeline/workers/repaint.py",
+      "bytes": 5306,
+      "sha256": "44118b5972a632bdbe935b910c27c537a718eb9e7e0d4205e634fcd5a2f302ea"
+    },
+    {
+      "path": "character-pipeline/workers/visual.py",
+      "bytes": 8591,
+      "sha256": "1c90156b0c640a44bdcb4195c44803dc92d3f191a55ab7f435a13bb35c558da9"
+    }
+  ]
+}

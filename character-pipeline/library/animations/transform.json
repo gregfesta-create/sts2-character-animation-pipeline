@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "family": "transform",
+  "loop": false,
+  "duration": 1.8,
+  "poses": {
+    "torso": [
+      0,
+      -0.15,
+      0.2,
+      -0.1,
+      0
+    ],
+    "armLeft": [
+      0,
+      0.5,
+      -0.5,
+      0.2,
+      0
+    ]
+  },
+  "markers": [
+    [
+      "transform",
+      0.5
+    ]
+  ]
+}

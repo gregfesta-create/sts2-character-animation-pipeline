@@ -1,0 +1,27 @@
+The backend builds an owned standalone Godot project from prepared artwork and explicit bone animation tracks. Run its saved `character.tscn` through `project.godot`. Textures are embedded in the saved scene; limited bones reference the accompanying `limited_bone.gd`.
+
+Native verification is explicitly opt-in:
+
+```
+node character-pipeline/test/godot/native.js --run --render
+```
+
+Use a process context with permission to load the configured engine's complete GodotSharp runtime. Codex's restricted context can deny native .NET assembly loading even when JavaScript can read those same files. Launch this harness through `require_escalated`; the backend sets cwd to the installed executable's directory. A preflight catches missing or unreadable GodotSharp.dll, but cannot prove the operating system will permit dynamic native assembly loading. Do not retry restricted native launches after an assemblies-not-found diagnostic. No installation or security-setting changes are needed.
+
+The synthetic checkerboard strip fixture is generated locally; it is not character artwork. `verify_frames.py` checks rendered pixels for a fixed base and moving distal region, exact sampled transforms, and reloaded scene validation. Core unit tests inject the process boundary and never launch Godot.
+
+Prepared mesh vertices and UV coordinates are texture pixels. Vertices and pivots use the attachment bone's local texture axes. The backend subtracts the prepared image pivot, divides by pixelsPerUnit and applies the attachment bone's complete global rest transform, including all parent rotations and scales. This matches the automatically generated rigid quad. Bone rest positions and animation values remain canonical rig units. Polygon UVs use Godot texture pixels. Four influences per vertex is the engine limit. Meshes live under `Character/Meshes`, separate from `Character/Skeleton`, so part IDs and bone IDs may coincide.
+
+Parts without a mesh or skinning directive use a rigid one-bone quad. A `skinning` directive supplies explicit bone IDs, strip axis and segment count; the rig stage generates normalized multi-bone weights from prepared image geometry, with pinned mount and distal endpoints by default. This does not infer anatomy from pixels. Rig edits reuse prepared images and rebuild the mesh. The result includes `relative` artifact paths, also saved as `godot/artifacts.json`, for rebasing after the staging directory is atomically moved. Scene resources use embedded textures or local `res://` references.
+
+Native compilation accepts at most 64 clips, including builds without previews, to bound animation-state graph resources. Rendered preview runs accept at most 32 clips.
+
+Optional `poseGroups` select exactly one ordinary prepared part per group. Clip `poseTracks` provide discrete, ordered drawing choices; absent tracks use the explicit default. `PoseController` combines drawing selection with visual-state eligibility and action hiding while retaining flat mesh paths and normal skeleton registration. Incoming clips own selections during fades, seeks reconstruct silently, loop clocks wrap and nonloop endpoints hold. Native preview seeks apply the same evaluator; bone-only telemetry does not certify drawing pixels. Changing drawings does not create inbetweens: review registered art and the actual animation for natural motion.
+
+Playback supports AnimationPlayer and a persistent direct-child AnimationTree state machine. Every clip supplies all bone transform properties, defaulting untracked properties to rest, and a full RESET clip is included. Linear, in, out, inOut and step key easing is evaluated by the engine. `Character.play_animation(name)` restarts actions and interrupts the previous action; completed actions return to idle, death holds, and Revive releases the hold. Native aliases Idle/Attack/Cast/Hit/Dead/Revive map to available lower-case clips. Tree self transitions reset time, including an external `Travel("Attack")` call. Generic event markers emit `animation_marker(id,name,payload)` without owning gameplay damage. Sound cues use the scene-owned audio controller; projectiles require their later provider.
+
+Referenced WAV/Vorbis assets pass container and actual decoder validation before native loading. Identical bytes share a staged asset, and unused sound-library entries are omitted from the compiled runtime scene. The compiler checks native duration and stores local binary stream resources. Visual preview sampling is silent. Runtime cues use one-shot streams, bounded voices and explicit interruption/tail behavior; seeking is silent and stops active voices. The default engine bus is Master; STS2 mute/volume routing and audible game verification remain pending native adapter work. This engine capability does not establish in-game audio acceptance.
+
+Run `node character-pipeline/test/godot/animation_native.js --run` with the same native permissions for exact transform/easing checks, repeated actions and external tree travel, interruption, marker replay, death/revive, hidden freeze/resume and instance isolation. SceneTree pause uses inherited engine pause behavior; removed instances do not process. No GDScript percentage coverage is claimed.
+
+Run `native.js --run --regression` under the same native runtime permissions to verify part/bone namespace collisions and known vertices through a rotated, scaled parent chain. Its validation records `Meshes/root` at exact positions `[64,148]`, `[64,150]`, `[58,148]` after scene save/reload.

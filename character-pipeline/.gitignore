@@ -1,0 +1,15 @@
+.devtools/node_modules/
+.devtools/rife/
+jobs/
+exports/
+.nyc_output/
+coverage/
+**/__pycache__/
+# Local Godot/.NET build state; never include installed game dependencies.
+**/.godot/
+**/bin/
+**/obj/
+# Machine-specific configuration and disposable publication staging.
+config/local.tools.json
+config/*.local.json
+release-staging/

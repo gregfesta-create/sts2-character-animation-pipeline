@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "family": "move",
+  "loop": true,
+  "duration": 0.8,
+  "poses": {
+    "torso": [
+      0,
+      0.04,
+      0,
+      -0.04,
+      0
+    ],
+    "legLeft": [
+      0,
+      0.5,
+      0,
+      -0.5,
+      0
+    ],
+    "legRight": [
+      0,
+      -0.5,
+      0,
+      0.5,
+      0
+    ]
+  }
+}

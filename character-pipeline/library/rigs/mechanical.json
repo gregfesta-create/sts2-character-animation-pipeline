@@ -1,0 +1,336 @@
+{
+  "bones": [
+    {
+      "id": "root",
+      "parent": null,
+      "rest": {
+        "position": [
+          256,
+          300
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 1,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "torso",
+      "parent": "root",
+      "rest": {
+        "position": [
+          0,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 100,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          100,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 40,
+      "limits": [
+        -0.8,
+        0.8
+      ]
+    },
+    {
+      "id": "leftUpperArm",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          80,
+          -40
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "leftForearm",
+      "parent": "leftUpperArm",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "leftHand",
+      "parent": "leftForearm",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 20,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "leftThigh",
+      "parent": "root",
+      "rest": {
+        "position": [
+          -30,
+          0
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 80,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "leftShin",
+      "parent": "leftThigh",
+      "rest": {
+        "position": [
+          80,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 75,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "leftFoot",
+      "parent": "leftShin",
+      "rest": {
+        "position": [
+          75,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 35,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightUpperArm",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          80,
+          40
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightForearm",
+      "parent": "rightUpperArm",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightHand",
+      "parent": "rightForearm",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 20,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightThigh",
+      "parent": "root",
+      "rest": {
+        "position": [
+          30,
+          0
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 80,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightShin",
+      "parent": "rightThigh",
+      "rest": {
+        "position": [
+          80,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 75,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "rightFoot",
+      "parent": "rightShin",
+      "rest": {
+        "position": [
+          75,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 35,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    }
+  ],
+  "anatomy": {
+    "template": "mechanical",
+    "roles": {
+      "root": "root",
+      "torso": "torso",
+      "head": "head",
+      "leftUpperArm": "leftUpperArm",
+      "leftForearm": "leftForearm",
+      "leftHand": "leftHand",
+      "leftThigh": "leftThigh",
+      "leftShin": "leftShin",
+      "leftFoot": "leftFoot",
+      "armLeft": "leftUpperArm",
+      "legLeft": "leftThigh",
+      "rightUpperArm": "rightUpperArm",
+      "rightForearm": "rightForearm",
+      "rightHand": "rightHand",
+      "rightThigh": "rightThigh",
+      "rightShin": "rightShin",
+      "rightFoot": "rightFoot",
+      "armRight": "rightUpperArm",
+      "legRight": "rightThigh",
+      "forearmLeft": "leftForearm",
+      "handLeft": "leftHand",
+      "shinLeft": "leftShin",
+      "footLeft": "leftFoot",
+      "forearmRight": "rightForearm",
+      "handRight": "rightHand",
+      "shinRight": "rightShin",
+      "footRight": "rightFoot"
+    }
+  }
+}

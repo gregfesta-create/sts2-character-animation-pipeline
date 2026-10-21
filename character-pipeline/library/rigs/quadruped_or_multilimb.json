@@ -1,0 +1,357 @@
+{
+  "bones": [
+    {
+      "id": "root",
+      "parent": null,
+      "rest": {
+        "position": [
+          256,
+          300
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 1,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "torso",
+      "parent": "root",
+      "rest": {
+        "position": [
+          0,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 100,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          100,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 40,
+      "limits": [
+        -0.8,
+        0.8
+      ]
+    },
+    {
+      "id": "frontLeftUpper",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          80,
+          -25
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "frontLeftLower",
+      "parent": "frontLeftUpper",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "frontLeftFoot",
+      "parent": "frontLeftLower",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 25,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "frontRightUpper",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          80,
+          25
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "frontRightLower",
+      "parent": "frontRightUpper",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "frontRightFoot",
+      "parent": "frontRightLower",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 25,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindLeftUpper",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          0,
+          -25
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindLeftLower",
+      "parent": "hindLeftUpper",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindLeftFoot",
+      "parent": "hindLeftLower",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 25,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindRightUpper",
+      "parent": "torso",
+      "rest": {
+        "position": [
+          0,
+          25
+        ],
+        "rotation": 1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 65,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindRightLower",
+      "parent": "hindRightUpper",
+      "rest": {
+        "position": [
+          65,
+          0
+        ],
+        "rotation": 0,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 60,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "hindRightFoot",
+      "parent": "hindRightLower",
+      "rest": {
+        "position": [
+          60,
+          0
+        ],
+        "rotation": -1.5707963267948966,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 25,
+      "limits": [
+        -2.8,
+        2.8
+      ]
+    },
+    {
+      "id": "tail",
+      "parent": "root",
+      "rest": {
+        "position": [
+          -30,
+          0
+        ],
+        "rotation": 3.141592653589793,
+        "scale": [
+          1,
+          1
+        ]
+      },
+      "length": 90,
+      "limits": [
+        0.3415926535897933,
+        5.941592653589793
+      ]
+    }
+  ],
+  "anatomy": {
+    "template": "quadruped_or_multilimb",
+    "roles": {
+      "root": "root",
+      "torso": "torso",
+      "head": "head",
+      "frontLeftUpper": "frontLeftUpper",
+      "frontLeftLower": "frontLeftLower",
+      "frontLeftFoot": "frontLeftFoot",
+      "armLeft": "frontLeftUpper",
+      "frontRightUpper": "frontRightUpper",
+      "frontRightLower": "frontRightLower",
+      "frontRightFoot": "frontRightFoot",
+      "armRight": "frontRightUpper",
+      "hindLeftUpper": "hindLeftUpper",
+      "hindLeftLower": "hindLeftLower",
+      "hindLeftFoot": "hindLeftFoot",
+      "legLeft": "hindLeftUpper",
+      "hindRightUpper": "hindRightUpper",
+      "hindRightLower": "hindRightLower",
+      "hindRightFoot": "hindRightFoot",
+      "legRight": "hindRightUpper",
+      "tail": "tail",
+      "forearmLeft": "frontLeftLower",
+      "handLeft": "frontLeftFoot",
+      "shinLeft": "hindLeftLower",
+      "footLeft": "hindLeftFoot",
+      "forearmRight": "frontRightLower",
+      "handRight": "frontRightFoot",
+      "shinRight": "hindRightLower",
+      "footRight": "hindRightFoot"
+    }
+  }
+}

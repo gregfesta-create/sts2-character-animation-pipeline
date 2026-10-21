@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "family": "activate",
+  "loop": false,
+  "duration": 0.9,
+  "poses": {
+    "torso": [
+      0,
+      -0.08,
+      0.1,
+      0.03,
+      0
+    ],
+    "armRight": [
+      0,
+      -0.3,
+      0.6,
+      0.2,
+      0
+    ]
+  },
+  "markers": [
+    [
+      "activate",
+      0.5
+    ]
+  ]
+}

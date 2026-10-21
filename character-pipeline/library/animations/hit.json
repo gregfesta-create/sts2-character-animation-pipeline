@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "family": "hit",
+  "loop": false,
+  "duration": 0.45,
+  "poses": {
+    "torso": [
+      0,
+      -0.25,
+      0.12,
+      -0.04,
+      0
+    ],
+    "armRight": [
+      0,
+      0.2,
+      -0.1,
+      0.04,
+      0
+    ]
+  }
+}

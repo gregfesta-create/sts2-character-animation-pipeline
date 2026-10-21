@@ -1,0 +1,27 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GameReferenceDir Condition="'$(GameReferenceDir)'==''">C:/Program Files (x86)/Steam/steamapps/common/Slay the Spire 2/data_sts2_windows_x86_64</GameReferenceDir>
+    <BaseLibReference Condition="'$(BaseLibReference)'==''">D:/StS2Modding/downloads/baselib-3.4.7/extracted/BaseLib.dll</BaseLibReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PipelineVisuals.cs" />
+    <Compile Include="AssemblyStateBinding.cs" />
+    <Compile Include="CreatureAssemblyBinding.cs" />
+    <Compile Include="CreatureAssemblyHooks.cs" />
+    <Compile Include="AttackPresentationBinding.cs" />
+    <Compile Include="CombatPresentationCaller.cs" />
+    <Reference Include="sts2"><HintPath>$(GameReferenceDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameReferenceDir)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BaseLib"><HintPath>$(BaseLibReference)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckInstalledReferences" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GameReferenceDir)/sts2.dll')" Text="Installed STS2 assembly missing; set GameReferenceDir." />
+    <Error Condition="!Exists('$(BaseLibReference)')" Text="Installed BaseLib assembly missing; set BaseLibReference." />
+  </Target>
+</Project>
+
+
+

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "family": "repair",
+  "loop": false,
+  "duration": 1.5,
+  "poses": {
+    "torso": [
+      0,
+      0.15,
+      0.15,
+      0.1,
+      0
+    ],
+    "armRight": [
+      0,
+      0.45,
+      0.25,
+      0.45,
+      0
+    ]
+  },
+  "markers": [
+    [
+      "repair",
+      0.5
+    ]
+  ]
+}

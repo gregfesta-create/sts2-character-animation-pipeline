@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "family": "cast",
+  "loop": false,
+  "duration": 1.2,
+  "poses": {
+    "torso": [
+      0,
+      -0.08,
+      -0.12,
+      -0.05,
+      0
+    ],
+    "armLeft": [
+      0,
+      -0.4,
+      -0.7,
+      -0.3,
+      0
+    ],
+    "armRight": [
+      0,
+      0.4,
+      0.7,
+      0.3,
+      0
+    ]
+  },
+  "markers": [
+    [
+      "release",
+      0.5
+    ]
+  ]
+}

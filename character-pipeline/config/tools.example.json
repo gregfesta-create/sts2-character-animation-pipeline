@@ -1,0 +1,47 @@
+{
+  "tools": {
+    "node": {
+      "executable": "C:/Program Files/nodejs/node.exe",
+      "versionArgs": [
+        "--version"
+      ],
+      "minimumVersion": "24.0.0"
+    },
+    "python": {
+      "executable": "C:/REPLACE_WITH_YOUR_PYTHON/python.exe",
+      "versionArgs": [
+        "--version"
+      ],
+      "minimumVersion": "3.12.0"
+    },
+    "megadot": {
+      "executable": "C:/REPLACE_WITH_YOUR_MEGADOT/MegaDot_v4.5.1-stable_mono_win64_console.exe",
+      "versionArgs": [
+        "--version"
+      ]
+    },
+    "dotnet": {
+      "executable": "C:/Program Files/dotnet/dotnet.exe",
+      "versionArgs": [
+        "--version"
+      ]
+    }
+  },
+  "sourceRoots": [
+    "C:/REPLACE_WITH_YOUR_ARTWORK_DIRECTORY"
+  ],
+  "outputRoot": "C:/REPLACE_WITH_YOUR_OUTPUT_DIRECTORY",
+  "limits": {
+    "maxStorageBytes": 4294967296,
+    "maxStageBytes": 268435456
+  },
+  "runtimeRoots": [
+    "C:/REPLACE_WITH_YOUR_MOD_SOURCE_DIRECTORY",
+    "C:/REPLACE_WITH_YOUR_GAME_MANAGED_DIRECTORY",
+    "C:/REPLACE_WITH_YOUR_BASELIB_DIRECTORY"
+  ],
+  "modPackaging": {
+    "sdkCacheRoot": "C:/Users/REPLACE_WITH_YOUR_USER/.nuget/packages",
+    "dotnetSdkVersion": "REPLACE_WITH_INSTALLED_DOTNET_SDK_VERSION"
+  }
+}

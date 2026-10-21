@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "family": "retreat",
+  "loop": true,
+  "duration": 0.9,
+  "poses": {
+    "torso": [
+      0,
+      -0.07,
+      0,
+      0.07,
+      0
+    ],
+    "legLeft": [
+      0,
+      -0.35,
+      0,
+      0.35,
+      0
+    ],
+    "legRight": [
+      0,
+      0.35,
+      0,
+      -0.35,
+      0
+    ]
+  }
+}

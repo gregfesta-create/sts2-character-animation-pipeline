@@ -1,0 +1,27 @@
+extends SceneTree
+const Storage=preload("res://texture_storage.gd")
+func _initialize():
+	var image=Image.create(128,128,false,Image.FORMAT_RGBA8)
+	for y in 128:
+		for x in 128: image.set_pixel(x,y,Color(1 if x%16<8 else 0,1 if y%16<8 else 0,0.5,0.5 if x%2 else 1))
+	var original=image.get_data()
+	var raw=ImageTexture.create_from_image(image)
+	var compact=Storage.from_image(image)
+	assert(compact!=null,"lossless texture created")
+	assert(ResourceSaver.save(raw,"res://raw.tres")==OK)
+	assert(ResourceSaver.save(compact,"res://compact.tres")==OK)
+	var reloaded=load("res://compact.tres")
+	var decoded=reloaded.get_image()
+	if decoded.is_compressed(): decoded.decompress()
+	assert(decoded.get_data()==original,"exact RGBA pixels survive save/reload")
+	assert(reloaded.get_width()==128 and reloaded.get_height()==128)
+	var raw_size=FileAccess.open("res://raw.tres",FileAccess.READ).get_length()
+	var compact_size=FileAccess.open("res://compact.tres",FileAccess.READ).get_length()
+	assert(compact_size<raw_size/4,"lossless fixture storage materially smaller")
+	assert(ResourceSaver.save(reloaded,"res://resaved.tres")==OK,"compressed buffer retained for later packing")
+	var invalid=Image.new()
+	assert(Storage.from_image(invalid)==null)
+	var report={"passed":true,"checks":8,"rawBytes":raw_size,"losslessBytes":compact_size,"pixelEquality":true}
+	FileAccess.open("res://validation.json",FileAccess.WRITE).store_string(JSON.stringify(report))
+	print(JSON.stringify(report))
+	quit(0)

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "family": "attack",
+  "loop": false,
+  "duration": 0.8,
+  "poses": {
+    "torso": [
+      0,
+      -0.1,
+      0.18,
+      0.08,
+      0
+    ],
+    "armRight": [
+      0,
+      -0.65,
+      0.9,
+      0.3,
+      0
+    ],
+    "armLeft": [
+      0,
+      0.12,
+      0.3,
+      0.1,
+      0
+    ]
+  },
+  "markers": [
+    [
+      "impact",
+      0.5
+    ]
+  ]
+}

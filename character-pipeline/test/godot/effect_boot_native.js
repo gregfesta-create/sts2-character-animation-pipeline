@@ -1,0 +1,32 @@
+'use strict';
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const { fixture, png } = require('./effect_compile_native');
+const { compileGodot } = require('../../backends/godot');
+const { runTool } = require('../../lib/process');
+async function main() {
+ const index = process.argv.indexOf('--evidence');
+ if (index >= 0 && !process.argv[index + 1]) throw Error('--evidence requires a directory');
+ const out = path.resolve(index < 0 ? path.join(__dirname, '../../evidence/effect-boot-native') : process.argv[index + 1]);
+ await fs.mkdir(out, {recursive:true});
+ const image = path.join(out, 'numeric-panel.png');
+ await fs.writeFile(image, png);
+ const {spec,build} = fixture(image);
+ const config = JSON.parse(await fs.readFile(path.join(__dirname, '../../config/local.tools.json')));
+ const compiled = await compileGodot(spec, {stagingDir:path.join(out,'compiled'),config,effectBuild:build});
+ await fs.copyFile(path.join(__dirname, 'effect_boot_probe.gd'), path.join(compiled.project, 'probe.gd'));
+ await fs.rm(path.join(compiled.project, 'effect-boot-result.json'), {force:true});
+ const tool = config.tools.megadot || config.tools.godot;
+ const run = await runTool({native:{...tool,cwd:path.dirname(tool.executable)}}, 'native', ['--headless','--path',compiled.project,'--script','res://probe.gd','--log-file',path.join(out,'native.log')], {timeoutMs:15000});
+ await fs.writeFile(path.join(out, 'process.json'), JSON.stringify(run,null,2));
+ const report = JSON.parse(await fs.readFile(path.join(compiled.project,'effect-boot-result.json')));
+ const output = run.stdout + run.stderr;
+ report.initializationErrorCount = (output.match(/ERROR: Compiled effect initialization failed/g)||[]).length;
+ report.expectedMalformedLiveErrorCount = 1;
+ report.unexpectedErrors = output.split(/\r?\n/).filter(line => /^(?:SCRIPT ERROR|ERROR:)/.test(line) && line !== "ERROR: Compiled effect initialization failed");
+ report.passed = report.passed && report.initializationErrorCount === 1 && report.unexpectedErrors.length === 0;
+ await fs.writeFile(path.join(out, 'result.json'), JSON.stringify(report,null,2));
+ if (run.exitCode || run.error || !report.passed) throw Error(JSON.stringify({run,report}));
+ console.log(JSON.stringify(report));
+}
+if (process.argv.includes('--run')) main().catch(error=>{console.error(error);process.exitCode=1;});
